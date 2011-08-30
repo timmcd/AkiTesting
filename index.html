@@ -9,7 +9,7 @@
     <script type="text/javascript" src="akihabara/tool.js"></script>
     <script type="text/javascript" src="akihabara/gamecycle.js"></script>
     <style>BODY { -webkit-user-select: none; margin: 0px }</style>
-    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+    <meta name="viewport" content="initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
 <head>
 
 <body>
@@ -22,10 +22,10 @@
     function loadResources() {
         help.akihabaraInit('8by5');
         
-        gbox.addImage('font', 'meda/font.png');
+        gbox.addImage('font', 'media/font.png');
         gbox.addImage('logo', 'media/logo.png');
         
-        gbox.addFont({ id: 'small', image: 'font', firstletter: ' ', tileh: 8, tilew 8, tilerow: 255, gapx: 0, gapy: 0 });
+        gbox.addFont({ id: 'small', image: 'font', firstletter: ' ', tileh: 8, tilew: 8, tilerow: 255, gapx: 0, gapy: 0 });
         
         gbox.loadAll(main);
     }
